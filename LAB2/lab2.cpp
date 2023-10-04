@@ -1,7 +1,7 @@
 #include <iostream>
 #include "lab2.h"
 int main() {
-    auto file = new WorkwFiles();
+    auto file = new lab2();
     try {
         file->open();
     } catch (exception &e) {
