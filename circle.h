@@ -3,7 +3,8 @@
 
 
 class circle {
-
+  float Square();
+  float perimetr();
 
 };
 
