@@ -1,10 +1,10 @@
 #ifndef CPUPU_LABS_APP_H
 #define CPUPU_LABS_APP_H
-#include "Matrix.cpp"
-#include "Swap.cpp"
-#include "Console.cpp"
+#include "matrix.cpp"
+#include "swap.cpp"
+#include "console.cpp"
 
-class App: Console {
+class App: console {
 public:
     int start();
 };
