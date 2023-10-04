@@ -1,5 +1,5 @@
 #include <iostream>
-#include "WorkwFiles.h"
+#include "lab2.h"
 int main() {
     auto file = new WorkwFiles();
     try {
@@ -11,6 +11,6 @@ int main() {
     cin >> nameoffile;
     file->open(nameoffile);
     cout << file->isOpen();
-    file->readstr(s);
-    file->readword(num);
+    file->ReadLine;
+    file->ReadWord;
 }
