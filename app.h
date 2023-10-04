@@ -4,7 +4,7 @@
 #include "swap.cpp"
 #include "console.cpp"
 
-class App: console {
+class app: console {
 public:
     int start();
 };
