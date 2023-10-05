@@ -3,11 +3,13 @@ int App::start() {
     char x = 4;
     char y = 1.6;
     print(swap(x, y))
-    Stack s(2);
-    s.push(4);
-    s.push(12);
-    s.pop();
-    s.pop();
-    s.pop();
+    int numRows, numCols;
+    cout << "Введите количество строк: ";
+    cin >> numRows;
+    cout << "Введите количество столбцов: ";
+    cin >> numCols;
+    Matrix matrix(numRows, numCols);
+    matrix.fillMatrix();
+    matrix.printMatrix();
     return 0;
 }
