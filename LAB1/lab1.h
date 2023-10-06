@@ -6,9 +6,9 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-#ifndef lab1_hpp
-#define lab1_hpp
-#include "lab1.hpp"
+#ifndef lab1_h
+#define lab1_h
+#include "lab1.h"
 
 struct obed 
 {
