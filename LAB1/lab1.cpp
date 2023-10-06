@@ -3,7 +3,7 @@
 // complex * number
 // 3x3 transp
 
-#include "lab1.hpp"
+#include "lab1.h"
 #include <iostream>
 
 
